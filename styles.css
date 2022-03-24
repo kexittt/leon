@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background: url(bg_image.jpg);
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.container {
+    text-align: center;
+    max-width: 750px;
+    margin: auto; 
+}
+
+
+/* Ссылки vk telegr*/
+a {
+    color: rgb(227, 244, 253); /*fff*/
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {color: rgb(175, 175, 175);}
+
+
+/* Текст возле фото */
+.info {
+    display: flex;
+    margin-bottom: 40px;
+    color:rgb(227, 244, 253);
+}
+
+.info-text {
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.info p {
+    font-style: italic;
+    color: rgb(175, 175, 175);
+}
+
+
+/* фото */
+.pctr {
+    box-shadow: 5px 5px 10px #fff; /*fff*/
+    border-radius: 15%;
+}
+
+
+/* фон блоков, их размер и стиль */
+.bg_red {
+    background: rgb(219, 243, 250)
+}
+
+.bg_gray {
+    background: rgb(206, 239, 255)
+}
+
+.card {
+    padding: 20px;
+    border: 1px solid #fff; /*fff*/
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+
+/* увеличенное дно (казалось бы, куда же еще)*/
+.bottom {
+    margin-bottom: 300px;
+}
+
+
+/* таблица */
+.table tr:nth-child(2n),
+.table tr:nth-child(3n){
+    background: rgba(255, 0, 0, 0.233);
+}
+
+.table {
+    width: 100%;
+}
+
+
+/* message (Связаться)*/
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #fff; /*fff*/
+    padding: 15px 0px 10px;
+    outline: none;
+    font-family: inherit;
+    margin-bottom: 20px;
+}
+.form-group {color:rgb(227, 244, 253);}/*fff Хотя я это добавил, чтобы сменить дефолтный черный */
+
+
+/* кнопка, ее описание и эффекты */
+.button {
+    background: rgb(117, 174, 248);
+    padding: 15px 15px;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    max-width: 100px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
+
+.button {
+    text-align: center;
+}
+
+.message {color:rgb(227, 244, 253)}
